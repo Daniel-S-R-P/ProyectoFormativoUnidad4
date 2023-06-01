@@ -1,0 +1,26 @@
+#header{
+    background-color: #380ABC;
+}
+
+#logout:hover{
+    cursor: pointer;
+}
+
+#lista a{
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .d-flex.flex-wrap {
+        flex-direction: column;
+        align-items: end;
+    }
+}
